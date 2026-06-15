@@ -25,6 +25,10 @@ export const siteConfig = {
       label: "About",
       href: "/about",
     },
+    {
+      label: "Jigtrels daily routine",
+      href: "/finals",
+    },
   ],
   navMenuItems: [
     {
