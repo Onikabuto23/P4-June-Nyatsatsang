@@ -1,12 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Snippet } from "@heroui/snippet";
-import { Code } from "@heroui/code";
-import { Button } from "@heroui/button";
 
 import { title, subtitle } from "@/components/primitives";
-import ConfettiButton from "@/components/confettiButton";
 
 export default function Home() {
   const [spinning, setSpinning] = useState(false);
@@ -23,14 +19,8 @@ export default function Home() {
 
         <br />
 
-        <div className={subtitle({ class: "mt-4" })}>
-          J.W.N. Period 4
-        </div>
+        <div className={subtitle({ class: "mt-4" })}>J.W.N. Period 4</div>
       </div>
-
-
-
-
     </section>
   );
 }
